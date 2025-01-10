@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
+  font-family: "Open Sans", serif;
 }
 
 /* Basic Margin Alignment check */
@@ -29,7 +30,7 @@
 .button1:hover {
   color: #d16666;
   background-color: #0b503d;
-  border: 2px solid #ffffff;
+  border: 2px solid #0add4967;
 }
 
 .button2 {
@@ -83,6 +84,8 @@ nav {
   /* margin: 10px 160px; */
   /* border: 2px solid red; */
   padding: 24px 160px;
+  margin: 0px auto;
+  width: 1600px;
 }
 nav h4 {
   font-size: 32px;
@@ -143,16 +146,33 @@ h6 {
   color: rgba(14, 14, 14, 0.5);
 }
 
-/* Pillars Section */
+/* Pillars of Bangladesh 2.0 Section */
 
 .pillars {
   width: 1600px;
-  height: 324px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 85px auto;
+}
+.pillars_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .pillar_heading {
   font-size: 40px;
+  margin-bottom: 32px;
+}
+.pillar_card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  width: 302px;
+  height: 244px;
+  padding: 24px 24px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.103);
 }
 .pillar_card_image {
   height: 64px;
@@ -160,9 +180,128 @@ h6 {
 }
 .pillar_card_image img {
   width: 100%;
+  background-color: #ffffff;
 }
-.pillar_card {
+
+.pillar_card_text p {
+  background-color: #ffffff;
+}
+.pillar_card_heading h3 {
+  background-color: #ffffff;
+}
+
+/* The Vision of Future Section Style */
+.vision {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+/* vision part */
+.vision_header_container {
+  /* border: 2px solid yellow; */
+  width: 1600px;
+  margin: 0px auto;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.vision_header {
+  height: 48px;
+}
+.vision_header h1 {
+  font-size: 40px;
+}
+.vision_description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ideas part  */
+.ideas_container {
+  /* border: 2px solid red; */
+  width: 1600px;
+  margin: 0px auto;
+  height: 325px;
+}
+.idea_card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* border: 2px solid yellow; */
+  align-items: start;
+  padding: 32px 32px;
+}
+
+.idea_card_image_container {
+  height: 64px;
+  width: 64px;
+}
+.idea_card_image_container img {
+  height: 64px;
+  width: 64px;
+}
+
+.idea_button button {
+  width: 122px;
+  height: 41px;
+  padding: 11px 21px;
+  border-radius: 5px;
+  color: #f5f5f5;
+  border: none;
+}
+.idea_card_info_container {
+  line-height: 45px;
+}
+.idea_card_info_container p {
+  line-height: 25px;
+}
+
+.idea_card_container {
+  display: flex;
+  gap: 24px;
+}
+
+#card1,
+#card1 img,
+#card1 h2,
+#card1 p {
+  background-color: rgba(84, 143, 245, 0.2);
+}
+#card1,
+#card2,
+#card3 {
+  border-radius: 10px;
+}
+#card2,
+#card2 img,
+#card2 h2,
+#card2 p {
+  background-color: #c6e4d6;
+}
+
+#card3,
+#card3 img,
+#card3 h2,
+#card3 p {
+  background-color: #f7ebcf;
+}
+
+#button1 {
+  background-color: #5490f5;
+}
+#button2 {
+  background-color: #09a15c;
+}
+#button3 {
+  background-color: #ffc239;
+}
+/* quote part */
+
+.quote_container {
+  border: 2px solid green;
+  width: 1600px;
+  margin: 0px auto;
+  height: 256px;
 }
