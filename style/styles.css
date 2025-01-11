@@ -118,7 +118,7 @@ nav button {
   /* margin: 10px 160px; */
   margin: 0px auto;
   padding: 80px 100px;
-  background-image: url(../assets/hero.png);
+  background-image: url(assets/hero.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
   display: flex;
