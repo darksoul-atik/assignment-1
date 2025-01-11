@@ -25,6 +25,7 @@
   padding: 17px 34px;
   font-size: 18px;
   cursor: pointer;
+  text-align: center;
 }
 
 .button1:hover {
@@ -46,6 +47,22 @@
   color: #d17373;
   background-color: #006a50;
   border: 2px solid #ffffff;
+}
+
+.button3 {
+  color: #ffffff;
+  background-color: #006a50;
+  border: 2px solid #006a50;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 13px 26px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.button3:hover {
+  color: #d17373;
+  background-color: #0b503d;
+  border: 2px solid #0add4967;
 }
 
 .open-sans-normal {
@@ -467,7 +484,92 @@ th p {
 .recent_news {
   height: 1406px;
   width: 1600px;
-  border: 2px solid red;
 
   margin: 120px auto;
+}
+.recent_news_header {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.recent_news_description {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.news_container {
+  width: 1600px;
+
+  height: 1254px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.news_card_1,
+.news_card_2,
+.news_card_3 {
+  height: 402px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.news_card_1,
+.news_card_3 {
+  display: flex;
+  padding: 48px 48px;
+  gap: 32px;
+}
+.news_card_2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 48px 48px;
+  gap: 32px;
+}
+
+/* shared news card style above */
+
+.news_card_logo {
+  height: 40px;
+  width: 134px;
+  margin-bottom: 12px;
+}
+.news_card_logo img {
+  background-color: #ffffff;
+}
+
+.news_card_image_container {
+  background-size: cover;
+  background-color: #ffffff;
+}
+.news_card_image_container img {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 408px;
+  height: 306px;
+}
+.news_card_info_container {
+  height: 290px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+}
+
+.news_date_time_container {
+  display: flex;
+  gap: 10px;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+}
+.news_date_time_container > p {
+  background-color: #ffffff;
+}
+.news_description {
+  background-color: #ffffff;
+  margin-bottom: 40px;
 }
